@@ -46,7 +46,7 @@ Install required libraries:
 pip install pandas numpy scikit-learn joblib
 
 
-Load the saved pipeline and run predictions:
+## Load the saved pipeline and run predictions:
 
 
 import joblib
@@ -59,6 +59,6 @@ print("Prediction:", "Malignant" if prediction[0] == 0 else "Benign")
 Developed by
 **Syeda Alia Samia**  
 GitHub:[Syeda Alia Samia](https://github.com/your-github-username)
-Project: `Rental-agency-database-system-sql`
+`
 
 
