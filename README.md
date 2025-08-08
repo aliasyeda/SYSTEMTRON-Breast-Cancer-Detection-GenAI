@@ -50,8 +50,11 @@ pip install pandas numpy scikit-learn joblib
 
 
 import joblib
+
 pipeline = joblib.load("breast_cancer_pipeline.pkl")
+
 prediction = pipeline.predict([[<your_features_here>]])
+
 print("Prediction:", "Malignant" if prediction[0] == 0 else "Benign")
 
 ## 👨‍💻 Author
